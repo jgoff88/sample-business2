@@ -38,6 +38,7 @@ h1 {
     text-align: center;
     color: #fff;
     padding: 0 20px;
+
 }
 
 .video-container {
@@ -91,7 +92,7 @@ h1 {
 
 
 .bg1 {
-    background: url('/assets/images/light-london-adverts-piccadilly-circus-34639.jpg');
+    background: url('/assets/images/london-comp.jpg');
     color: #333;
 }
 
@@ -172,18 +173,35 @@ h1 {
     grid-column: 1 / 3;
 }
 
+.fa-twitter {
+    color: white;
+}
+
+.fa-facebook {
+    color: white;
+}
+
+.fa-github {
+    color: white;
+}
+
+.fa-linkedin {
+    color: white;
+}
+
+
 /* Screen Sizes 500px and Up */
 @media (min-width: 500px) {
-    #landing {
+    .section {
         display: flex;
         height: 100%;
     }
 
-    #landing-text {
+    #video-container {
         height: 100vh;
     }
 
-    #landing-image {
+    .video {
         height: 100vh;
     }
 }

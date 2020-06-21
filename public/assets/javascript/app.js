@@ -1,5 +1,5 @@
 // Animate Smooth Scroll
-$('#about').on('click', function() {
+$('').on('click', function() {
 	const images = $('#about').position().top;
 
 	$('html, body').animate(
@@ -8,4 +8,13 @@ $('#about').on('click', function() {
 		},
 		900
 	);
+});
+$(window).scroll(function() {
+	var scroll = $(window).scrollTop();
+
+	if (scroll >= 200) {
+		$('body').addClass('blue');
+	} else {
+		$('body').removeClass('blue');
+	}
 });
