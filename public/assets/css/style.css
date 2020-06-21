@@ -87,6 +87,15 @@ h1 {
     transform: scale(0.98);
 }
 
+.bg1 {
+    background: url('/assets/images/light-london-adverts-piccadilly-circus-34639.jpg');
+}
+
+.bg2 {
+    background: url('/assets/images/low-angle-view-of-lighting-equipment-on-shelf-257904.jpg');
+    color: #333;
+}
+
 #about {
     padding: 40px;
     text-align: center;
@@ -105,4 +114,85 @@ h1 {
 
 .social a {
     margin: 0 5px;
+}
+
+.navbars {
+    z-index: 0;
+}
+
+#star {
+    color: gold;
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.visual {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.visual>div {
+    cursor: pointer;
+    height: 210px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    transition: all 0.5s ease-in;
+}
+
+.visual>div:hover {
+    opacity: 0.7;
+    transform: scale(0.98);
+}
+
+.visual>div:nth-of-type(1) {
+    grid-column: 1 / 3;
+}
+
+.visual>div:nth-of-type(6) {
+    grid-column: 3 / 5;
+}
+
+.visual>div:nth-of-type(9) {
+    grid-column: 3 / 5;
+}
+
+.visual>div:nth-of-type(10) {
+    grid-column: 1 / 3;
+}
+
+/* Screen Sizes 500px and Up */
+@media (min-width: 500px) {
+    #landing {
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+
+    #landing-image {
+        height: 100vh;
+    }
+}
+
+/* Screen Sizes 700px and Up */
+@media (min-width: 700px) {
+    .btn {
+        padding: 1rem 3rem;
+    }
 }
