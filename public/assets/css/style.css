@@ -143,7 +143,6 @@ h1 {
 }
 
 .visual>div {
-    cursor: pointer;
     height: 210px;
     background-size: cover;
     background-attachment: fixed;
