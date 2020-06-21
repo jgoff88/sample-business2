@@ -1,6 +1,6 @@
 // Animate Smooth Scroll
-$('#html').on('click', function() {
-	const images = $('#images').position().top;
+$('#about').on('click', function() {
+	const images = $('#about').position().top;
 
 	$('html, body').animate(
 		{

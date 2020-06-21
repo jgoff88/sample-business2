@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
+
 :root {
     --primary-color: #3a4052;
 }
@@ -10,13 +11,11 @@
     padding: 0;
 }
 
-html {
-    scroll-behavior: smooth;
-}
 
 body {
     font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -48,7 +47,6 @@ h1 {
     width: 100%;
     height: 100%;
     overflow: hidden;
-    background: var(--primary-color) url('./https://traversymedia.com/downloads/cover.jpg') no-repeat center center/cover;
 }
 
 .video-container video {
@@ -91,12 +89,9 @@ h1 {
     transform: scale(0.98);
 }
 
+
 .bg1 {
     background: url('/assets/images/light-london-adverts-piccadilly-circus-34639.jpg');
-}
-
-.bg2 {
-    background: url('/assets/images/low-angle-view-of-lighting-equipment-on-shelf-257904.jpg');
     color: #333;
 }
 
