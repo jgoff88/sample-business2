@@ -259,11 +259,11 @@ footer {
 .contact form textarea {
     width: 100%;
     padding: 1em;
-    border: 1px solid #00B2A9;
+    border: 1px solid grey;
 }
 
 .contact form button {
-    background: #71eee8;
+    background: lightgrey;
     border: 0;
     text-transform: uppercase;
 }
